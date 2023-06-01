@@ -1,7 +1,7 @@
 {
-  "name": "BoilerPlate-FS",
+  "name": "Personal-Gym-Application",
   "version": "1.0.0",
-  "description": "Boiler Plate Hooked With React",
+  "description": "Gym Application",
   "main": "index.js",
   "scripts": {
     "build:dev": "webpack --watch",
@@ -45,6 +45,7 @@
     "pg": "^8.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
     "sequelize": "^6.31.1"
   }
 }
