@@ -5,7 +5,7 @@ const config = {
 };
 
 const db = new Sequelize(
-    process.env.DATABASE_URL || 'postgres://localhost/boilerplate',
+    process.env.DATABASE_URL || 'postgres://localhost/personalapp',
     config
 );
 

@@ -1,5 +1,6 @@
 const { db } = require('./db');
-const { User } = require('./Models/User');
+require('./relationships');
+
 const init = async () => {
     try {
         await db.sync({ force: true }); //typically we don't want to do force true in production mode.
